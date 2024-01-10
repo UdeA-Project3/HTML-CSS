@@ -14,3 +14,49 @@ h1{
 .parrafoNegro{
     color: black;
 }
+.textoRojoFondoAzul{
+    color: red;
+    background-color: blue;
+}
+.textoAmarilloFondoNegro{
+    color: yellow;
+    background-color: black;
+}
+.textoGrandeNegrita{
+    font-size: x-large;
+    font-weight: bold;
+}
+.imagenPequena{
+    height: 100px;
+}
+
+
+.margenes{
+    margin: 20px; /* Esta propiedad me permite hacer un margen de mi elemento 20px en todas las direcciones*/
+}
+
+
+.margenes{           /* De esta forma definimos las propiedades de las margenes en cada direccion individual*/
+    margin-top: 10;
+    margin-left: 20;
+    margin-right: 20;
+    margin-bottom: 10;
+    border: 1px solid blue; /* Esta propiedad nos permite crear un borde en nuestro elemento con el grosor forma (solido, punteado etc) color*/
+    padding: 10px; /* Nos permite separar el contenido del borde en todas las direcciones*/
+}
+
+
+
+.contenedorDivs{
+    border: 2px solid yellow;
+    display: grid;   /* Dispay de tipo grid que nos permite organizar nuestra informacion en filas y columnas*/
+    grid-column: auto;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 30% 30% 40%;
+    
+}
+
+.bordes{
+    border: 1px solid black;
+       
+}
