@@ -45,18 +45,22 @@ h1{
     padding: 10px; /* Nos permite separar el contenido del borde en todas las direcciones*/
 }
 
-
+.bordes{
+    border: 1px solid black;
+    
+}
 
 .contenedorDivs{
     border: 2px solid yellow;
     display: grid;   /* Dispay de tipo grid que nos permite organizar nuestra informacion en filas y columnas*/
     grid-column: auto;
     grid-template-rows: 50px 50px;
-    grid-template-columns: 30% 30% 40%;
-    
+    grid-template-columns: 30% 30% 40%; 
+    margin: 30px; 
 }
 
-.bordes{
-    border: 1px solid black;
-       
-}
+
+
+
+
+
