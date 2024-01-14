@@ -13,3 +13,21 @@ ul{
     justify-content: space-between;
   
 }
+
+.buscar{
+    background-color: white;
+    border: 1px solid grey;
+    padding: 4px;
+    border-radius: 8px;
+
+
+}
+.buscar:focus-within{
+    border: 1px solid black;
+    box-shadow: 1px 1px;
+}
+
+.buscar > input{ /*Esto quiere decir que a to input que se encuentre bajo la clase buscar le voy a quitar la linea*/
+   outline: none;  
+    border: 0px;
+}
