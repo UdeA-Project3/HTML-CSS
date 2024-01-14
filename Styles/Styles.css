@@ -13,3 +13,18 @@ ul{
     justify-content: space-between;
   
 }
+.mainBotton{
+    background-color: rgb(75, 106, 75);
+    color: white;
+    border: 0px;
+    padding: 5px 10px; /* Me genera un espacio de los bordes hacia adentro del elemento*/
+    border-radius: 10px; /* Redondea los bordes*/
+    font-weight: bolder;
+    
+
+}
+.mainBotton:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow:1px 1px rgb(28, 21, 21);
+}
